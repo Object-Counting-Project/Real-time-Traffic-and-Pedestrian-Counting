@@ -38,3 +38,7 @@ GPU: Tesla K80 · VRAM :12 GB Memory · RAM: 61 GB RAM · Storage: 100 GB SSD</h
 
 <h3>Database</h3>
 <h5>The count of vehicles and people periodically gets pushed to a cloud MongoDb cluster every minute, and there’s charts in the dashboard that summarize this data and are updated in real-time</h5>
+
+<hr>
+
+<h3>Citation</h3>
