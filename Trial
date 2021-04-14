@@ -1,6 +1,7 @@
+
 Here we illustrate the alternatives between the model when using different versions of YOLO object detection and framework
 
-TRIAL 1 : 
+TRIAL 1 : MobileNet v1
 
 We worked on MobileNet v1 which has been trained on the COCO dataset  and use DeepSORT to Track the  Objects.
 
@@ -17,10 +18,10 @@ Batch normalization and ReLU is applied after convolution
 Because the number of frame per second is very small, we will use another architecture 
 ---------------------------------------------
 
-TRIAL 2 : 
+TRIAL 2 : YOLOv3
 
 We work on YOLOv3 which was Implemented in Tensorflow2.It uses Darknet 53 architecture, 
-which was a significantly improved version and had 53 convolution layers.
+which was a significantly improved version and had 53 convolution layers and it uses KalmanBoxTracker to Track the  Objects
 
 ** It uses TensorFlow as framework **
 
@@ -30,16 +31,34 @@ Still the number of frames per second small, we need MORE frames !!!
 
 We have three options for increasing the # of frames :
 1- Reduce resolution
-2- Use "tiny-yolo" object detection
+2- Use "yolo-tiny" object detection
 3- Use GPU 
 
 ---------------------------------------------
 
-TRIAL 3 : 
+TRIAL 3 : YOLOv3-tiny
+
+We chose option 2 in order to increase the number of frames
+
+** It uses TensorFlow as framework **
+
+** We ran YOLOv3-tiny in a CPU(i7 10750H) environment, and it was capable of processing 2 frames per second. **
+
+This option does not work as we thought!!!
+
+---------------------------------------------
+
+TRIAL 3 : YOLOv3/GPU
+
+Here we tried to run the YOLOv3 on GPU environment using CUDA (gives direct access to GPU) BUT it keeps failed and retrun
+Becuse we tried to put too much data on CUDA. As a result it failed
+
+** CUDA_ERROR_OUT_OF_MEMORY: out of memory **
 
 
+---------------------------------------------
 
-
+TRIAL 4 : YOLOv5
 
 
 
