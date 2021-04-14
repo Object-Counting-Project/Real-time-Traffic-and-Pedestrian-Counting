@@ -50,7 +50,7 @@ This option does not work as we thought!!!
 
 TRIAL 3 : YOLOv3/GPU
 
-Here we tried to run the YOLOv3 on GPU environment using CUDA (gives direct access to GPU) BUT it keeps failed and retrun
+Here we tried to run the YOLOv3 on GPU environment using CUDA (gives direct access to GPU).
 Becuse we tried to put too much data on CUDA. As a result it failed
 
 ** CUDA_ERROR_OUT_OF_MEMORY: out of memory **
@@ -59,6 +59,17 @@ Becuse we tried to put too much data on CUDA. As a result it failed
 ---------------------------------------------
 
 TRIAL 4 : YOLOv5
+
+Because the previous trial keeps giving "out of memory", we will use YOLOv5 since it is much more lightweight and easy to use
+
+YOLOv5 is the first of the YOLO models to be written in the PyTorch framework. It uses CSPDarknet53 architecture
+
+** We ran YOLOv5 in a CPU(i7 10750H) environment, and it was capable of processing 8 frames per second. **
+
+** We ran YOLOv5 in a GPU environment, and it was capable of processing 100 frames per second.!!!! **
+ 
+NOTE : All the above trials uses tensorflow framework BUT yolov5 use pytorch framework
+
 
 
 
