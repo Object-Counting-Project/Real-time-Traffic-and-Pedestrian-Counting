@@ -8,7 +8,7 @@
 <h4>Using the PyTorch Object detection API(YOLOv5 is written in the Pytorch framework), we will be counting the number of vehicles and pedestrians in a video. A frame is extracted every second from the video and a forward pass of the model is performed. If a vehicle or pedestrian is found in the video, then the count is increased.
 </h4>
 
-In order to achieve the best performance, you should have CUDA installed on Your device.
+<h4>In order to achieve the best performance, you should have CUDA installed on Your device.</h4>
 <hr>
 
 <h3>Project Demo</h3>
