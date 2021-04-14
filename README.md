@@ -12,9 +12,9 @@
 
 <h3>Installation</h3>
 
-<h4>pip install -r requirements.txt
+<h5>pip install -r requirements.txt</h5>
 
-python detect.py --weights yolov5s.pt
+<h5>python detect.py --weights yolov5s.pt
 
 python detect.py --source video.mp4</h4>
 
