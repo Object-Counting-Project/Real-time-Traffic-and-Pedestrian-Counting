@@ -5,7 +5,7 @@
 
 <h4>It needs to be stated that YOLOv5 object-detection is forked from the implementation of "NAME", and "KalmanBoxTracker" tracking implementation forked from "NAME"</h4>
 
-<h4>Using the PyTorch Object detection API, we will be counting the number of vehicles and pedestrians in a video. A frame is extracted every second from the video and a forward pass of the model is performed. If a vehicle or pedestrian is found in the video, then the count is increased.
+<h4>Using the PyTorch Object detection API(YOLOv5 is written in the Pytorch framework), we will be counting the number of vehicles and pedestrians in a video. A frame is extracted every second from the video and a forward pass of the model is performed. If a vehicle or pedestrian is found in the video, then the count is increased.
 </h4>
 
 
