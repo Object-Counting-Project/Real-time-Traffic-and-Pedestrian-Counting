@@ -2,6 +2,7 @@
 
 <h3>Introduction</h3>
 <h4>This project aims to count vehicle and pedestrian detected in the input video using YOLOv5 object-detection algorithm with the KalmanBoxTracker for tracking objects
+  <br>
 
 It needs to be stated that YOLOv5 object-detection is forked from the implementation of "NAME", and "KalmanBoxTracker" tracking implementation forked from "NAME"
 
