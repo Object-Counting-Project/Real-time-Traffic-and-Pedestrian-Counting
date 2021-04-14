@@ -48,7 +48,7 @@ This option does not work as we thought!!!
 
 ---------------------------------------------
 
-TRIAL 3 : YOLOv3/GPU
+TRIAL 4 : YOLOv3/GPU
 
 Here we tried to run the YOLOv3 on GPU environment using CUDA (gives direct access to GPU).
 Becuse we tried to put too much data on CUDA. As a result it failed
@@ -58,7 +58,7 @@ Becuse we tried to put too much data on CUDA. As a result it failed
 
 ---------------------------------------------
 
-TRIAL 4 : YOLOv5
+TRIAL 5 : YOLOv5
 
 Because the previous trial keeps giving "out of memory", we will use YOLOv5 since it is much more lightweight and easy to use
 
