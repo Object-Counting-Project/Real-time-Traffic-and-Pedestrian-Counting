@@ -24,11 +24,11 @@
 <h3>Installation</h3>
 
 ```html
-<h5>pip install -r requirements.txt</h5>
+pip install -r requirements.txt
 
-<h5>python detect.py --weights yolov5s.pt</h5>
+python detect.py --weights yolov5s.pt
 
-<h5>python detect.py --source video.mp4</h5>
+python detect.py --source video.mp4
 ```
 
 
@@ -38,7 +38,10 @@
 <hr>
 
 <h3>Run Demo</h3>
-<h5>python3 app.py</h5>
+```html
+python3 app.py
+```
+
 <hr>
 
 
