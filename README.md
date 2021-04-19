@@ -31,6 +31,11 @@
 
 <hr>
 
+<h3>Run Demo</h3>
+<h5>python3 app.py</h5>
+
+
+
 <h3>Web Hosting</h3>
 <h5>
 Inorder to host the model we used FloyHub which offers 2 hours of free
