@@ -26,7 +26,7 @@
 <div style="color:blue;text-align:center"> 
 <h5>pip install -r requirements.txt</h5>
 
-<h5>python detect.py --weights yolov5s.pt</h5>
+<h5 style="color:green;">python detect.py --weights yolov5s.pt</h5>
 
 <h5>python detect.py --source video.mp4</h5>
 
