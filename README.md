@@ -23,11 +23,14 @@
 
 <h3>Installation</h3>
 
+<div border = 5px outset red>
 <h5>pip install -r requirements.txt</h5>
 
 <h5>python detect.py --weights yolov5s.pt</h5>
 
 <h5>python detect.py --source video.mp4</h5>
+
+</div>
 
 <hr>
 
