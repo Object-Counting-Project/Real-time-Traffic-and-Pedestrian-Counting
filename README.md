@@ -33,6 +33,7 @@
 
 <h3>Run Demo</h3>
 <h5>python3 app.py</h5>
+<hr>
 
 
 
