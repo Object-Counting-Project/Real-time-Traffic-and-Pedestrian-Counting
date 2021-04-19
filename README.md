@@ -48,5 +48,5 @@ GPU: Tesla K80 · VRAM :12 GB Memory · RAM: 61 GB RAM · Storage: 100 GB SSD</h
 
 <h3>Author</h3>
 
-<a href="https://github.com/ultralytics/yolov5?fbclid=IwAR3mJzN0aLJZY0qLzXeuuZo5OwfOYZ_BHLNs5bZo3N4dDEHfLg0HnZZRbDs">glenn-jocher</a>
-<a href="https://github.com/clemente0420/Real-time-Traffic-and-Pedestrian-Counting?fbclid=IwAR1O0PaEmcSf4E4m6_It6hMCTJD2UJl70S6O-XZd4UL_086ig9upg5NGZ-g">clemente0620</a></h4>
+<a href="https://github.com/ultralytics/yolov5?fbclid=IwAR3mJzN0aLJZY0qLzXeuuZo5OwfOYZ_BHLNs5bZo3N4dDEHfLg0HnZZRbDs">glenn-jocher, yolov5</a> <br>
+<a href="https://github.com/clemente0420/Real-time-Traffic-and-Pedestrian-Counting?fbclid=IwAR1O0PaEmcSf4E4m6_It6hMCTJD2UJl70S6O-XZd4UL_086ig9upg5NGZ-g">clemente0620,Real-time-Traffic-and-Pedestrian-Counting </a></h4>
