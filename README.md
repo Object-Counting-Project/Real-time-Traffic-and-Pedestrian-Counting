@@ -23,7 +23,7 @@
 
 <h3>Installation</h3>
 
-<div style="border: 5px outset red;text-align:center"> ;
+<div style="border: 5px outset red;text-align:center"> 
 <h5>pip install -r requirements.txt</h5>
 
 <h5>python detect.py --weights yolov5s.pt</h5>
