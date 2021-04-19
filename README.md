@@ -3,7 +3,9 @@
 <h3>Introduction</h3>
 <h4>This project aims to count vehicle and pedestrian detected in the input video using YOLOv5 object-detection algorithm with the KalmanBoxTracker for tracking objects</h4>
 
-<h4>It needs to be stated that YOLOv5 object-detection is forked from the implementation of "NAME", and "KalmanBoxTracker" tracking implementation forked from "NAME"</h4>
+<h4>It needs to be stated that YOLOv5 object-detection is forked from the implementation of 
+<a href="https://github.com/ultralytics/yolov5?fbclid=IwAR3mJzN0aLJZY0qLzXeuuZo5OwfOYZ_BHLNs5bZo3N4dDEHfLg0HnZZRbDs">glenn-jocher</a>, and "KalmanBoxTracker" tracking implementation forked from 
+<a href="https://github.com/clemente0420/Real-time-Traffic-and-Pedestrian-Counting?fbclid=IwAR1O0PaEmcSf4E4m6_It6hMCTJD2UJl70S6O-XZd4UL_086ig9upg5NGZ-g">clemente0620</a></h4>
 
 <h4>Using the PyTorch Object detection API(YOLOv5 is written in the Pytorch framework), we will be counting the number of vehicles and pedestrians in a video. A frame is extracted every second from the video and a forward pass of the model is performed. If a vehicle or pedestrian is found in the video, then the count is increased.
 </h4>
@@ -13,14 +15,11 @@
 
 <h3>Project Demo</h3>
 
-
 <hr>
 
 <h3>Flow</h3>
 
-
 <hr>
-
 
 <h3>Installation</h3>
 
@@ -34,7 +33,7 @@
 
 <h3>Web Hosting</h3>
 <h5>
-Inorder to host the model we used FloyHub which offers 2 hours of free 
+Inorder to host the model we used FloyHub which offers 2 hours of free
 
 usage form their standard instance with the following specs:
 
