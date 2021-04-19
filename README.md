@@ -31,13 +31,10 @@ python detect.py --weights yolov5s.pt
 python detect.py --source video.mp4
 ```
 
-
-
-
-
 <hr>
 
 <h3>Run Demo</h3>
+
 ```html
 python3 app.py
 ```
