@@ -51,7 +51,7 @@ font_style = cv2.FONT_HERSHEY_SIMPLEX
 # line = [(922, 0), (922, 1065)]
 # # 近似水平线
 
-line = [(0, 400), (2100, 400)] # for vehicle.mp4
+line = [(0, 400), (2100, 400)]  # for vehicle.mp4
 # line = [(0, 430), (2100, 430)] # for people.mp4
 
 
