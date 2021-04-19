@@ -23,18 +23,6 @@ https://user-images.githubusercontent.com/47077167/115262112-e6f72b80-a13c-11eb-
 
 <hr>
 
-<h3>Installation</h3>
-
-```html
-#requirements
-pip install -r requirements.txt
-
-# model
-python detect.py --weights yolov5s.pt
-
-```
-
-<hr>
 
 
 <h3>Run Demo</h3>
